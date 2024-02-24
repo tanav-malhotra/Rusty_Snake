@@ -1,3 +1,4 @@
+#![allow(non_snake_case)]
 #![windows_subsystem = "windows"] // Prevent the console from popping up
 extern crate rand;
 extern crate piston_window;
@@ -42,6 +43,7 @@ fn main() {
                     window.set_title(format!("High Score: {}", game.get_high_score()));
                 }
             }
+            window.set_size([to_coord_u32(width), to_coord_u32(height)]);
         });
     }
 }
