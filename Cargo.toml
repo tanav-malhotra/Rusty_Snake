@@ -2,7 +2,7 @@
 name = "Rusty_Snake"
 version = "1.0.0"
 edition = "2021"
-authors = ["Tanav Malhotra <tanavm2009@gmail.com>"]
+authors = ["Tanav Malhotra"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
