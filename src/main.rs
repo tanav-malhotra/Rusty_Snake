@@ -1,4 +1,4 @@
-#![windows_subsystem = "windows"]
+#![windows_subsystem = "windows"] // Get rid of the console that pops up after launching the game
 extern crate rand;
 extern crate piston_window;
 mod draw;
