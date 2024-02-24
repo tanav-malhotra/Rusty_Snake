@@ -7,8 +7,6 @@ use crate::snake::{Direction, Snake};
 use crate::draw::{draw_block, draw_rectangle};
 
 const FOOD_COLOR: Color = [0.80, 0.00, 0.00, 1.0]; //red
-// const BORDER_COLOR: Color = [0.00, 0.00, 0.00, 1.0]; // black
-// const BORDER_COLOR: Color = [0.356863, 0.949020, 0.313725, 1.0]; // dark green
 const GAME_OVER_COLOR: Color = [0.90, 0.00, 0.00, 0.5]; // bright red (transparent)
 
 const MOVING_TIME: f64 = 0.1; // 0.1 = 10x per second, 0.5 = 2x per second, etc.
@@ -88,11 +86,6 @@ impl Game {
         if self.food_exists {
             draw_block(FOOD_COLOR, self.food_x, self.food_y, con, g);
         }
-
-        // draw_border(BORDER_COLOR, 0, 0, self.width, 1, con, g); // Top border
-        // draw_border(BORDER_COLOR, 0, self.height -1, self.width, 1, con, g); // Bottom border
-        // draw_border(BORDER_COLOR, 0, 0, 1, self.height, con, g); // Left border
-        // draw_border(BORDER_COLOR, self.width -1, 0, 1, self.height, con, g); // Right border
 
         if self.game_over {
             draw_rectangle(GAME_OVER_COLOR, 0, 0, self.width, self.height, con, g);

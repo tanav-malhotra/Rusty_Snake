@@ -4,8 +4,6 @@ use piston_window::types::Color;
 use crate::draw;
 use draw::draw_block;
 
-// const SNAKE_COLOR: Color = [0.368627, 0.839216, 0.337255, 1.0]; // green
-// const SNAKE_HEAD_COLOR: Color = [0.356863, 0.949020, 0.313725, 1.0]; // dark green
 const SNAKE_COLOR: Color = [0.258824, 0.529412, 0.960784, 1.0]; // blue
 const SNAKE_HEAD_COLOR: Color = [0.254902, 0.266667, 0.949020, 1.0]; // dark blue
 const SNAKE_START_LENGTH: i32 = 4;

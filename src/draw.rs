@@ -2,7 +2,6 @@ use piston_window::{rectangle, Context, G2d};
 use piston_window::types::Color;
 
 const BLOCK_SIZE: f64 = 25.0;
-// const BORDER_WIDTH: f64 = 10.0;
 
 pub fn to_coord(game_coord: i32) -> f64 {
     return game_coord as f64 * BLOCK_SIZE;
@@ -35,15 +34,3 @@ pub fn draw_rectangle(color: Color, x: i32, y: i32, width: i32, height: i32, con
         g,
     );
 }
-
-// pub fn draw_border(color: Color, x: i32, y: i32, width: i32, height: i32, con: &Context, g: &mut G2d) {
-//     let x = to_coord(x);
-//     let y = to_coord(y);
-//
-//     rectangle(
-//         color,
-//         [x, y, BORDER_WIDTH * width as f64, BORDER_WIDTH * height as f64],
-//         con.transform,
-//         g,
-//     );
-// }
