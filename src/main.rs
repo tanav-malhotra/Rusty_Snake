@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 extern crate rand;
 extern crate piston_window;
 mod draw;
