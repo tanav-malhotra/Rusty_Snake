@@ -2,9 +2,16 @@
 name = "Rusty_Snake"
 version = "1.0.0"
 edition = "2021"
-authors = ["Tanav Malhotra"]
+authors = ["Tanav Malhotra <tanavm2009@gmail.com>"]
+
+description = "A Snake Game in Rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package.metadata.bundle]
+name = "Rusty_Snake"
+identifier = "com.TanavM2009.Rusty_Snake"
+icon = ["./icon.ico"]
 
 [dependencies]
 rand = "0.8.5"
