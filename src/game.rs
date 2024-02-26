@@ -60,6 +60,7 @@ impl Game {
             Key::Down | Key::S | Key::K => Some(Direction::Down),
             Key::Left | Key::A | Key::J => Some(Direction::Left),
             Key::Right | Key::D | Key::L => Some(Direction::Right),
+            Key::Space => Some(self.get_snake_dir()),
             _ => None,
         };
 
