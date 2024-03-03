@@ -39,4 +39,4 @@ Use your file manager and/or the command line and move the binary from [wherever
 
 # Playing the Game!
 - Press `Space` and/or the key pointing in the same direction as your snake to quickly boost (speed up) until the direction is changed.
-- WASD, IJKL, and the Arrow Keys are supported.
+- `WASD`, `IJKL`, and the `Arrow Keys` are supported.
