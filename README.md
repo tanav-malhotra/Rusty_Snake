@@ -33,7 +33,7 @@ cargo install --force --path .
 - Restart Powershell and/or your terminal
 - Run the game:
 ```
-Rusty_Snake
+rusty_snake
 ```
 - (Optional) Move the binary to your desktop:
-Use your file manager and/or the command line and move the binary from [wherever you cloned the repo]/Rusty_Snake/target/release/Rusty_Snake on macOS and Linux or from [wherever you cloned the repo]\Rusty_Snake\target\release\Rusty_Snake on Windows to your desktop.
+Use your file manager and/or the command line and move the binary from [wherever you cloned the repo]/Rusty_Snake/target/release/rusty_snake on macOS and Linux or from [wherever you cloned the repo]\Rusty_Snake\target\release\rusty_snake on Windows to your desktop.
