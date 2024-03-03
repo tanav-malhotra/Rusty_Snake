@@ -3,8 +3,10 @@ name = "Rusty_Snake"
 version = "1.0.0"
 edition = "2021"
 authors = ["Tanav Malhotra"]
-
 description = "A Snake Game in Rust"
+keywords = ["snake", "game"]
+categories = ["games"]
+license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
