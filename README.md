@@ -38,5 +38,5 @@ Rusty_Snake
 Use your file manager and/or the command line and move the binary from [wherever you cloned the repo]/Rusty_Snake/target/release/Rusty_Snake on macOS and Linux or from [wherever you cloned the repo]\Rusty_Snake\target\release\Rusty_Snake on Windows to your desktop.
 
 # Playing the Game!
-- Press `Space` and/or the key pointing in the same direction as your snake to quickly boost (speed up) until the direction is changed.
 - `WASD`, `IJKL`, and the `Arrow Keys` are supported.
+- Press `Space` and/or the key pointing in the same direction as your snake to quickly boost (speed up) until the direction is changed.
