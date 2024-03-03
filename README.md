@@ -30,7 +30,6 @@ cd Rusty_Snake
 ```
 cargo install --force --path .
 ```
-- Restart Powershell and/or your terminal
 - Run the game:
 ```
 Rusty_Snake
