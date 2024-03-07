@@ -4,13 +4,13 @@ Snake Game in Rust
 This game was improved upon the snake game by Tensor Programming: https://github.com/tensor-programming/snake-tutorial
 
 ## macOS:
-Get the macOS .dmg file here: https://github.com/TanavM2009/Rusty_Snake/releases/latest
+Get the macOS .dmg file here: https://github.com/tanav-malhotra/Rusty_Snake/releases/latest
 
 ## Windows:
-Get the Windows Installer here: https://github.com/TanavM2009/Rusty_Snake/releases/latest
+Get the Windows Installer here: https://github.com/tanav-malhotra/Rusty_Snake/releases/latest
 
 ## Linux:
-Get the Linux .AppImage here: https://github.com/TanavM2009/Rusty_Snake/releases/latest
+Get the Linux .AppImage here: https://github.com/tanav-malhotra/Rusty_Snake/releases/latest
 
 ## Build from source:
 ### Type these commands (either in macOS, Linux, or Windows Powershell):
