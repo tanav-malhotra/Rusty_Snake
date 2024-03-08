@@ -13,13 +13,13 @@ Get the Windows Installer here: https://github.com/tanav-malhotra/Rusty_Snake/re
 Get the Linux .AppImage here: https://github.com/tanav-malhotra/Rusty_Snake/releases/latest
 
 ## Build from source:
-### Type these commands (either in macOS, Linux, or Windows Powershell):
+### Type these commands (either in the terminal for macOS and Linux, or Powershell for Windows):
 - Install Rust:
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 - Restart Powershell and/or your terminal
-- Clone this repo:
+- Clone this repo (or download the zip file, extract it, and then open it up in a terminal):
 ```
 git clone https://github.com/TanavM2009/Rusty_Snake.git
 ```
