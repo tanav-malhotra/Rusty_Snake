@@ -12,7 +12,7 @@ license-file = "LICENSE"
 
 [package.metadata.bundle]
 name = "Rusty_Snake"
-identifier = "com.TanavM2009.Rusty_Snake"
+identifier = "com.tanav-malhotra.Rusty_Snake"
 icon = ["./icon.ico"]
 
 [dependencies]
