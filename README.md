@@ -21,7 +21,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 - Restart Powershell and/or your terminal
 - Clone this repo (or download the zip file, extract it, and then open it up in a terminal):
 ```
-git clone https://github.com/TanavM2009/Rusty_Snake.git
+git clone https://github.com/tanav-malhotra/Rusty_Snake.git
 ```
 - Install it:
 ```
