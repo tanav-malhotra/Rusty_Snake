@@ -18,7 +18,6 @@ Get the Linux .AppImage here: https://github.com/tanav-malhotra/Rusty_Snake/rele
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-- Restart Powershell and/or your terminal
 - Clone this repo (or download the zip file, extract it, and then open it up in a terminal):
 ```
 git clone https://github.com/tanav-malhotra/Rusty_Snake.git
@@ -35,7 +34,7 @@ cargo install --force --path .
 Rusty_Snake
 ```
 - (Optional) Move the binary to your desktop:
-Use your file manager and/or the command line and move the binary from [wherever you cloned the repo]/Rusty_Snake/target/release/Rusty_Snake on macOS and Linux or from [wherever you cloned the repo]\Rusty_Snake\target\release\Rusty_Snake on Windows to your desktop.
+Use your file manager and/or the command line and move the binary from [wherever you cloned the repo]/Rusty_Snake/target/release/Rusty_Snake on macOS and Linux or from [wherever you cloned the repo]\Rusty_Snake\target\release\Rusty_Snake.exe on Windows to your desktop.
 
 # Playing the Game!
 - `WASD`, `IJKL`, and the `Arrow Keys` are supported.
