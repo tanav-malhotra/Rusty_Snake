@@ -14,7 +14,7 @@ Get the Linux .AppImage here: https://github.com/tanav-malhotra/Rusty_Snake/rele
 
 ## Build from source:
 ### Type these commands (either in the terminal for macOS and Linux, or Powershell for Windows):
-- Install Rust:
+- Install Rust (if you haven't already):
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
